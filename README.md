@@ -17,3 +17,8 @@ running:
 
 	go get github.com/johnryan-wf/csvmaker
 	go install github.com/johnryan-wf/csvmaker
+
+## running tests
+
+	go test ./...
+
