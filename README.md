@@ -4,9 +4,12 @@ generates large csvs to print to stdout
 
 ## example
 
-running:
+bash:
 
-	go run csvmaker.go -rows 5 -cols 3
+	csvmaker -rows 5 -cols 3
+	
+output:
+
 	0, 0, 0
 	1, 1, 1
 	2, 2, 2
