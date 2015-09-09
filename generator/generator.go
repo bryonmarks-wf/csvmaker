@@ -15,7 +15,7 @@ func (cr *Generator) writeLine(lineIdx int, numCols int) {
 	for i := 0; i < numCols; i++ {
 		cr.buffer.WriteString(fmt.Sprintf("%d", lineIdx))
 		if (i != numCols - 1) {
-			cr.buffer.WriteString(", ")
+			cr.buffer.WriteString(",")
 		}
 	}
 }
